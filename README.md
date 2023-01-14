@@ -53,7 +53,7 @@ Users should be able to:
 
 This seems like a straightforward project to code. It becomes tricky if the inputs are invalid. I was reading and watching videos on form validation with JS. A lot of them were similar. I had a concept as to how it was to go when I stumbled upon someone by the name of codebubb on YouTube. His video on form validation using JS was just what I had in mind and I decided to borrow it for this challenge. I adapted it and kept most his code so if others want to look at it, they can. I'll also put a link down below to his site and YT channel. 
 
-One thing that put me in a pickle was accessibility. I found Austin Gil's blog post on this (link below) and used some of his CSS. Since this Frontend Mentor project had hidden labels with placeholders in the input boxes, using codebubb's code meant that I had to populate the label tags with the field names, but render them hidden. Or, do away what was in between the label tags and use JS to obtain the value of the placeholder and put it in the error messages. I wasn't sure which was the better way or good practice, so I left the code with some comments for future me.
+One thing that put me in a pickle was accessibility. I found Austin Gil's blog post on this (link below) and used some of his CSS. Since this Frontend Mentor project had hidden labels with placeholders in the input boxes, using codebubb's code meant that I had to populate the label tags with the field names, but render them hidden. Or, do away what was in between the label tags and use JS to obtain the value of the placeholder and put it in the error messages. In the end, I decided to use aria-hidden="true". I wasn't sure which was the better way or good practice.
 
 ### Continued development
 
